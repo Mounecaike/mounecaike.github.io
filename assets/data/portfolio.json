@@ -1,0 +1,20 @@
+[
+    {
+        "image": "image-booki.jpg",
+        "title": "Booki",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "pages/booki.html"
+    },
+    {
+        "image": "image2.png",
+        "title": "Éco Bliss Bath",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "pages/ecoblissbath.html"
+    },
+    {
+        "image": "image-kasa.jpg",
+        "title": "Kasa",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "link": "pages/kasa.html"
+    }
+]
