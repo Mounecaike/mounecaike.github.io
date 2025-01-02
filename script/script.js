@@ -30,7 +30,7 @@ function createSkillsFromJSON() {
     row.classList.add("row");
 
     // Load the JSON file
-    fetch("../src/assets/data/skills.json")
+    fetch("./assets/data/skills.json")
         .then((response) => response.json())
         .then((data) => {
             // Iterate through the JSON data and create HTML elements
@@ -66,7 +66,7 @@ function createPortfolioFromJSON() {
     row.classList.add("row");
 
     // Load the JSON file
-    fetch("../src/assets/data/portfolio.json")
+    fetch("./assets/data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
             // Iterate through the JSON data and create HTML elements
