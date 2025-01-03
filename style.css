@@ -1,4 +1,9 @@
 /******* GENERAL *******/
+body {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0;
+}
 /* spacing on all sections */
 #about,
 #skills,
@@ -21,18 +26,25 @@
 .navbarScroll.navbarDark {
     background-color: #5b5b5b;
 }
-
+.navbar {
+    margin: auto;
+    max-width: 1440px;
+}
 /* hero background image */
 .banner-img {
     max-width: 1440px;
     width: 100%;
     height: 100%;
-    max-height: 900px;
+    padding: 0;
     background-size: cover;
     position: relative;
 }
 .banner-img img {
     max-width: 1440px;
+}
+.container-fluid {
+    padding-left: 0px;
+    margin: 0px;
 }
 /* text css above hero image*/
 .hero_title {

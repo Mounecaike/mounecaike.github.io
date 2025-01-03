@@ -1,20 +1,23 @@
 [
     {
-        "image": "image-booki.jpg",
+        "image": "image-booki.webp",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "pages/booki.html"
+        "text": "Les bases du html/css et du responsive",
+        "link": "pages/booki.html",
+        "alt": "logo booki"
     },
     {
-        "image": "image2.png",
+        "image": "logo-eco.webp",
         "title": "Éco Bliss Bath",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "pages/ecoblissbath.html"
+        "text": "L'automatisation des tests avec cypress",
+        "link": "pages/ecoblissbath.html",
+        "alt": "Logo eco bliss bath"
     },
     {
-        "image": "image-kasa.jpg",
+        "image": "image-kasa.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "pages/kasa.html"
+        "text": "React et animation dynamique en css",
+        "link": "pages/kasa.html",
+        "alt": "Logo Kasa"
     }
 ]
