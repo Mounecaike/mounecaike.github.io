@@ -36,7 +36,7 @@ function createSkillsFromJSON() {
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
+                card.classList.add("skills-bloc", "mt-4");
                 card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
@@ -74,16 +74,20 @@ function createPortfolioFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card portfolioContent">
-                    <img class="card-img-top" src="../assets/images/${item.image}" alt="${item.alt}" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                    <div class="portfolio-container">
+                        <div class="card portfolioContent">
+                            <div class="img-container">
+                                <img class="card-img-top" src="../assets/images/${item.image}" alt="${item.alt}" style="width:100%">
+                            </div>
+                            <div class="card-body-project">
+                                <h4 class="card-title">${item.title}</h4>
+                                <p class="card-text">${item.text}</p>
+                                <div class="text-center">
+                                    <a href="${item.link}" class="btn-animated"><span>Plus d'infos</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 `;
 
                 // Append the card to the current row
@@ -93,7 +97,7 @@ function createPortfolioFromJSON() {
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
                     container.appendChild(row);
                     row = document.createElement("div");
-                    row.classList.add("row");
+                    row.classList.add("row-portfolio");
                 }
             });
         });

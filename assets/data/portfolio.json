@@ -1,0 +1,23 @@
+[
+    {
+        "image": "image-booki.webp",
+        "title": "Booki",
+        "text": "Les bases du html/css et du responsive",
+        "link": "pages/booki.html",
+        "alt": "logo booki"
+    },
+    {
+        "image": "logo-eco.svg",
+        "title": "Éco Bliss Bath",
+        "text": "L'automatisation des tests avec cypress",
+        "link": "pages/ecoblissbath.html",
+        "alt": "Logo eco bliss bath"
+    },
+    {
+        "image": "image-kasa.webp",
+        "title": "Kasa",
+        "text": "React et animation dynamique en css",
+        "link": "pages/kasa.html",
+        "alt": "Logo Kasa"
+    }
+]
