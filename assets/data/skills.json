@@ -18,13 +18,13 @@
         "alt": "Logo react"
     },
     {
-        "image": "gestion-de-projet.svg",
+        "image": "gestion-de-projet.webp",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
         "alt": "image gestion de projet"
     },
     {
-        "image": "logo-google-lighthouse.svg",
+        "image": "logo-google-lighthouse.webp",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
         "alt": "Logo de performance"
