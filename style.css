@@ -390,6 +390,11 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
+	background-image: url('./assets/images/background.webp');
+    background-attachment: fixed; 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 #about .about-text{
     margin-top: 25px !important;
@@ -463,6 +468,11 @@ body {
     max-width: 425px;
     width: 100%;
     margin: auto;
+	  background-image: url('./assets/images/background.webp');
+    background-attachment: fixed; 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .container-custom {
     max-width: 425px;
