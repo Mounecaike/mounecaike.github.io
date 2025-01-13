@@ -11,14 +11,14 @@ function handleNavbarScroll() {
     };
 }
 
-// Function to handle navbar collapse on small devices after a click
+// Fonction inutilisée pour éviter les conflits
 function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
 
     navLinks.forEach((link) => {
         link.addEventListener("click", () => {
-            new bootstrap.Collapse(menuToggle).toggle();
+            new bootstrap.Collapse(menuToggle).toggle(); // Supprimez ceci pour tester
         });
     });
 }

@@ -91,3 +91,16 @@ document.querySelector(".arrow_right").addEventListener('click', () => {
     Indexslider = (Indexslider + 1) % slides.length;
     AfficherImages();
 });
+
+function handleNavbarCollapse() {
+    const navLinks = document.querySelectorAll(".nav-item");
+    const menuToggle = document.getElementById("navbarSupportedContent");
+
+    navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            new bootstrap.Collapse(menuToggle).toggle(); // Supprimez ceci pour tester
+        });
+    });
+}
+
+handleNavbarCollapse();
