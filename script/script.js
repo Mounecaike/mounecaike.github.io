@@ -38,13 +38,13 @@ function createSkillsFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("skills-bloc", "mt-4");
                 card.innerHTML = `
-                    <div class="card skillsText">
+                    <article class="card skillsText">
                         <div class="card-body">
                             <img src="../assets/images/${item.image}" alt="${item.alt}"/>
                             <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
-                    </div>
+                    </article>
                 `;
 
                 // Append the card to the current row
@@ -74,7 +74,7 @@ function createPortfolioFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="portfolio-container">
+                    <article class="portfolio-container">
                         <div class="card portfolioContent">
                             <div class="img-container">
                                 <img class="card-img-top" src="../assets/images/${item.image}" alt="${item.alt}" style="width:100%">
@@ -87,7 +87,7 @@ function createPortfolioFromJSON() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 `;
 
                 // Append the card to the current row
