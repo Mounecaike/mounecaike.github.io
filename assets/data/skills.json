@@ -34,5 +34,24 @@
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt": "Logo cypress"
+    },
+    {
+        "image": "logo-postman.webp",
+        "title": "Postman",
+        "text": "Test des requêtes API, validation des réponses, gestion des environnements et création de collections de tests",
+        "alt": "Logo postman"
+    },
+    {
+        "image": "logo-jira.webp",
+        "title": "Jira",
+        "text": "Gestion des tâches et suivi des bugs, création et exécution de tests, utilisation des tableaux Scrum et Kanban pour l’organisation des sprints",
+        "alt": "Logo cypress"
+    },
+    {
+        "image": "logo-github.webp",
+        "title": "Github",
+        "text": "Gestion de version avec Git, utilisation des branches et pull requests, collaboration et revue de code via GitHub Actions et Issues",
+        "alt": "Logo github"
     }
+
 ]

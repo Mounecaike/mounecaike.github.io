@@ -117,12 +117,16 @@ body h3, h4, h5 {
     justify-content: center;
     margin: auto;
     height: 70px;
-    width: 300px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #23204b;
-
+    width: 450px;
+    font-size: 32px; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 0px 17px 3px rgba(0, 0, 0, 0.5);
+    color: #ae7217; 
+    position: relative;
+    user-select: none; 
+    cursor: default; 
 }
 .skills-bloc {
     width: 33.333%;
