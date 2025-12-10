@@ -354,7 +354,7 @@ a {
     }
 }
 
-@media (max-width : 426px){
+@media (max-width : 476px){
     .logo-fygz{
         width: 300px;
         margin: 0 auto 75px auto;
