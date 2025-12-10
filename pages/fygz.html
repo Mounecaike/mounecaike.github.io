@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYGZ – My Collection</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">JL</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../pages/fygz.html">FYGZ</a></li>
+                <li><a href="../pages/projects.html">Projets</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="presentation-project">
+        <img src="/assets/images/Logo_Fygz_horizontal.png" class="logo-fygz-project">
+        <h2>L'application dédiée aux collectionneurs de figurines</h2>
+        <p>Une webapp moderne construite avec Django et DRF, pensée pour gérer, organiser et partager ses figurines.</p>
+
+        <a href="#" class="btn" target="_blank">Voir le code (GitHub)</a> <!-- à remplir plus tard -->
+    </section>
+
+    <!-- Card de présentation -->
+    <div class="project-card">
+        <h2>Présentation</h2>
+
+        <p class="intro">
+            FYGZ est une application web permettant aux collectionneurs de figurines 
+            de gérer leur collection, suivre leurs achats, partager leur profil 
+            et accéder à des fonctionnalités premium basées sur des APIs externes.
+        </p>
+
+        <h3>Objectifs de l'application</h3>
+        <ul>
+            <li>Centraliser et organiser sa collection</li>
+            <li>Ajouter facilement une figurine (nom, univers, prix, photo…)</li>
+            <li>Trier et filtrer sa collection (univers, prix, rareté…)</li>
+            <li>Partager son profil en ligne</li>
+            <li>Bonus premium : estimation automatique via l'API eBay</li>
+            <li>Modération automatique des images (sécurité des uploads)</li>
+        </ul>
+    </div>
+
+    <!-- Stack technique -->
+    <div class="project-card">
+        <h2>Stack Technique</h2>
+
+        <ul>
+            <li><span class="label">Backend :</span> Python, Django, Django REST Framework</li>
+            <li><span class="label">Base de données :</span> SQLite (dev), PostgreSQL (prod)</li>
+            <li><span class="label">Frontend :</span> HTML, CSS, JavaScript (puis migration prévue vers React)</li>
+            <li><span class="label">Fonctionnalités avancées :</span> Auth, dashboard, filtres DRF, upload sécurisé</li>
+            <li><span class="label">Déploiement :</span> Render (à venir)</li>
+        </ul>
+    </div>
+
+    <!-- Roadmap -->
+    <div class="project-card">
+        <h2>Roadmap</h2>
+
+        <h3>Version actuelle</h3>
+        <ul>
+            <li>Maquettes complètes Illustrator</li>
+            <li>Charte graphique (dark + orange)</li>
+            <li>Frontend HTML/CSS en cours</li>
+            <li>Début de structure Django</li>
+        </ul>
+
+        <h3>Fonctionnalités à venir</h3>
+        <ul>
+            <li>Dashboard utilisateur complet</li>
+            <li>Ajout/édition/suppression de figurines</li>
+            <li>Authentification + gestion du compte</li>
+            <li>Upload d’images + modération</li>
+            <li>API premium d’estimation eBay</li>
+            <li>Page publique partageable</li>
+            <li>Mise en production sur Render</li>
+        </ul>
+    </div>
+
+    <!-- Images / Maquettes -->
+    <div class="project-card">
+        <h2>Maquettes et Aperçus</h2>
+
+        <p>Les visuels seront ajoutés lorsque les écrans seront finalisés.</p>
+
+        <div class="placeholder-img">
+            <p>[Aperçu maquette ici]</p>
+        </div>
+    </div>
+
+    <!-- Retour -->
+    <section class="section">
+        <a href="../index.html" class="btn-secondary">Retour à l'accueil</a>
+    </section>
+
+</body>
+</html>

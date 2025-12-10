@@ -1,0 +1,407 @@
+/* ---------- GLOBAL ---------- */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+    color: #eee;
+}
+
+h1, h2, h3 {
+    color: #ff7a00;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ .btn{
+    padding: 12px 24px;
+    background: #ff7a00;
+    color: #111;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 20px;
+ }
+/* ---------- NAVBAR ---------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0d0d0d;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    color: #ff7a00;
+}
+.logo{
+    margin-top: 10px;
+}
+/* PRESENTATION SECTION */
+.presentation {
+    background: #141414;
+    padding: 80px 20px;
+    border-bottom: 1px solid #222;
+}
+.presentation-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #141414;
+    padding: 80px 20px;
+    border-bottom: 1px solid #222;
+}
+
+.presentation-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Photo */
+.presentation-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid #ff7a00;
+    box-shadow: 0 0 20px rgb(0 0 0 / 0.4);
+}
+
+/* Texte */
+.presentation-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.presentation h1 {
+    font-size: 2.6rem;
+    color: #ff7a00;
+    margin-bottom: 10px;
+}
+
+.presentation h2 {
+    font-size: 1.4rem;
+    color: #eee;
+    margin-bottom: 18px;
+}
+
+.presentation p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Boutons */
+.presentation-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.presentation .btn {
+    padding: 12px 24px;
+    background: #ff7a00;
+    color: #111;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.presentation .btn-secondary {
+    padding: 12px 24px;
+    border: 1px solid #ff7a00;
+    border-radius: 6px;
+    color: #ff7a00;
+    margin-top: 0;
+}
+
+.presentation .btn-secondary:hover {
+    background: #ff7a00;
+    color: #111;
+    transition: 0.2s;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .presentation-wrapper {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+.icon-fygz-search{
+    height: 80px;
+    margin-bottom: 20px;
+}
+.logo-fygz {
+    width: 500px;
+    margin-bottom:100px;
+}
+.logo-fygz-project {
+    width: 700px;
+    margin-bottom:100px;
+}
+
+/* FYGZ preview icons section */
+.fygz-preview {
+    text-align: center;
+}
+
+.fygz-features-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.feature-box {
+    max-width: 230px;
+
+}
+
+.feature-box img {
+    min-height: 80px;
+    max-height: 100px;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.25));
+}
+
+.feature-box h4 {
+    color: #ff7a00;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.feature-box p {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.section ul {
+    list-style: disc;
+    padding-left: 40px;
+    color: #eee;
+    text-align: left;
+}
+
+.section li {
+    margin-bottom: 6px;
+}
+
+
+.label {
+    font-weight: bold;
+    color: #ff7a00;
+}
+
+
+/* ---------- PROJECT CARDS ---------- */
+.project-card {
+    background: #181818;          
+    max-width: 900px;             
+    margin:150px auto 50px;
+    padding: 40px;
+    border-radius: 12px;        
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
+.project-card h2 {
+    text-align: center;
+    color: #ff7a00;
+    margin-bottom: 20px;
+}
+
+.project-card .intro {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.project-card h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #ff7a00;
+}
+
+.project-card ul {
+    list-style: disc;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.project-card li {
+    margin-bottom: 8px;
+}
+
+.project-card .meta {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.label {
+    font-weight: bold;
+    color: #ff7a00;
+}
+
+.link-label:hover {
+    color: #ff7a00;
+}
+.project-card-main {
+    background: #181818;          
+    max-width: 900px;             
+    margin:50px auto 100px;
+    padding: 40px;
+    border-radius: 12px;        
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+/* Effet hover discret */
+.project-card:hover {
+    background: #1c1c1c;
+    transition: 0.3s ease;
+}
+
+/* ---------- CARDS ---------- */
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1a1a1a;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ff7a00;
+    border-radius: 6px;
+    color: #ff7a00;
+}
+
+.btn-secondary:hover {
+    background: #ff7a00;
+    color: #111;
+}
+
+.btn-secondary-project {
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ff7a00;
+    border-radius: 6px;
+    color: #ff7a00;
+
+}
+.btn-secondary-project:hover {
+    background: #ff7a00;
+    color: #111;
+}
+/* === FYGZ PAGE === */
+.placeholder-img {
+    background: #222;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+
+/* Responsive */
+@media (max-width: 769px) {
+    .presentation-wrapper {
+        text-align: center;
+        flex-direction: column;
+    }
+    .presentation-buttons{
+        justify-content: space-evenly;
+    }
+    .logo-fygz-project{
+        width: 400px;
+    }
+    .logo-fygz{
+        width: 400px;
+    }
+}
+
+@media (max-width : 426px){
+    .logo-fygz{
+        width: 300px;
+        margin: 0 auto 75px auto;
+    }
+    .icon-fygz-search{
+        max-width: auto;
+    }
+    .nav-links {
+    display: flex;
+    margin-left: 0;
+    margin-block-start: 0px;
+    padding-inline-start: 0;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar{
+        justify-content: space-evenly;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+}
+
+@media (max-width: 330px){
+    .logo-fygz{
+        width: 250px;
+    }
+    .logo-fygz-project{
+        width: 250px;
+    }
+    .presentation .btn{
+        height: 30px;
+    }
+    .presentation{
+        padding: 80px 10px;
+    }
+    .project-card-main{
+        padding: 20px;
+    }
+    .btn-secondary-project{
+        margin-top: 25px;
+    }
+    .nav-links li{
+        margin-top: 15px;
+    }
+    .logo {
+        display: none;
+    }
+}
